@@ -489,11 +489,29 @@ footer {
  
 }
 
-@media screen and (min-height: 1600px) and (orientation:portrait) {
+
+
+@media screen and (min-height: 1440px) and (orientation:portrait) {
 
   .button, .button:focus {
     
     margin: 0.7rem 0 0 0 !important;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+  }
+
+
+  .button.expand {
+
+    width: 43%;
+  }
+}
+
+@media screen and (min-width: 1440px) and (orientation:portrait) {
+
+  .button, .button:focus {
+    
+    margin: 0.7rem 0 65.5rem 0 !important;
     font-size: 1rem;
     letter-spacing: 0.05rem;
   }
@@ -521,7 +539,7 @@ footer {
   
 }
 
-@media screen and (min-width: 1440px) and (orientation:landscape) {
+@media screen and (min-height: 1440px) and (orientation:landscape) {
 
   .button, .button:focus {
     
@@ -577,6 +595,8 @@ img.logo{
   }
 }
 
+
+
 @media screen and (min-width: 1280px) and (orientation:portrait) {
 
   img.logo{
@@ -592,6 +612,15 @@ img.logo{
 
   img.logo{
     padding: 30% 15% 0;
+    width: 100%;
+
+  }
+}
+
+@media screen and (min-width: 1440px) and (orientation:portrait) {
+
+  img.logo{
+    padding: 48% 6% 0;
     width: 100%;
 
   }
