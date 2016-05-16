@@ -340,7 +340,201 @@ h2 {
   }
 }
 
+/*
+  ========================================
+  footer
+  ========================================
+*/
 
+footer {
+
+  
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+
+}
+
+
+
+@media screen and (min-width: 768px) and (orientation:portrait) {
+
+  footer {
+
+    bottom: 2%;
+
+  }
+}
+
+@media screen and (min-height: 768px) and (orientation:landscape) {
+
+  footer {
+
+    bottom: 2%;
+
+  }
+  
+}
+
+@media screen and (min-height: 1440px) and (orientation:landscape) {
+
+ footer {
+
+     bottom: 4%;
+
+   }
+}
+
+
+
+
+@media screen and (max-height: 900px) and (orientation:landscape) {
+
+ footer {
+
+    bottom: 2%;
+
+  }
+  
+}
+
+@media screen and (max-height: 700px) and (orientation:landscape) {
+  
+  footer {
+
+    bottom: 0%;
+
+  }
+
+}
+/*
+
+  ========================================
+  button
+  ========================================
+*/
+
+.button, .button:focus {  
+  
+  background-color: #968c83;
+  margin: 0.5rem 0 0 0 !important;
+  font-family: "Futura Std", "Futura", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+.button:hover {
+
+  background-color: #c0b8b0;
+  color: #000000;
+}
+
+.button.expand {
+
+  width: 100%;
+}
+
+@media screen and (max-height: 250px), and (orientation:landscape) {
+
+ .button, .button:focus {
+    
+    margin: 0.3rem 0 0 0 !important;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    padding: 0.7rem;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) and (orientation:landscape) {
+
+  .button, .button:focus {
+    
+    margin: 0.5rem 0 0 0 !important;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+  }
+
+
+  .button.expand {
+
+    width: 40%;
+  }
+ 
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (orientation:portrait) {
+
+  .button, .button:focus {
+    
+    margin: 0.5rem 0 0 0 !important;
+    font-size: 1.7rem;
+    letter-spacing: 0.05rem;
+  }
+
+
+  .button.expand {
+
+    width: 40%;
+  }
+ 
+}
+
+@media screen and (min-height: 1600px) and (orientation:portrait) {
+
+  .button, .button:focus {
+    
+    margin: 0.7rem 0 0 0 !important;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+  }
+
+
+  .button.expand {
+
+    width: 43%;
+  }
+}
+
+@media screen and (min-height: 700px) and (orientation:landscape) {
+
+  .button, .button:focus {
+    
+    margin: 0.5rem 0 0 0 !important;
+    font-size: 1.6rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .button.expand {
+
+    width: 35%;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) and (orientation:landscape) {
+
+  .button, .button:focus {
+    
+   margin: 1.2rem 0 0 0 !important;
+   font-size: 1.7rem;
+   letter-spacing: 0.05rem;
+  }
+
+
+ }
 
 
 /*
