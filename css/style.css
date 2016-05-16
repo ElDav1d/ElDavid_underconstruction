@@ -416,12 +416,12 @@ footer {
 
 .button, .button:focus {  
   
-  background-color: #968c83;
+  background-color: #C8C8C8;
   margin: 0.5rem 0 0 0 !important;
-  font-family: "Futura Std", "Futura", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 1.3rem;
+  font-family: inherit;
+  font-size: 1rem;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.05rem;
 }
 
