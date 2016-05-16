@@ -808,11 +808,11 @@ img.logo{
   max-height: 2rem;
   max-width: auto;
   display: inline-block;
-  margin: 0rem 0.5rem 1rem 0.5rem ; 
+  margin: 1rem 0.5rem 1rem 0.5rem ; 
 }
 
 .social-container {
-  margin-top: 1rem 0rem 1rem 0rem ; 
+  margin-top: 1rem 0rem 1rem 0rem !important; 
   text-align: center;
 }
 
