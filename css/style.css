@@ -571,7 +571,7 @@ img.logo{
 @media screen and (min-height: 1600px) and (orientation:landscape) {
 
   img.logo{
-    padding: 35% 10% 0;
+    padding: 42% 0 0;
     width: 100%;
 
   }
