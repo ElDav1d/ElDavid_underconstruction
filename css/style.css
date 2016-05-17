@@ -721,51 +721,46 @@ img.logo{
 @media screen and (max-height: 540px) and (orientation:landscape) {
 
   img.logo{
-    padding: 4% 29% 0;
+    padding: 4% 27% 0;
     max-width: 85%;
 
   }
 }
 
 
-@media screen and (max-height: 410px) and (orientation:landscape) {
 
-  img.logo{
-    padding: 3% 33% 0;
-    max-width: 87%;
-
-  }
-}
 
 @media screen and (max-height: 360px) and (orientation:landscape) {
 
   img.logo{
-    padding: 3% 36% 0;
+    padding: 3% 33% 0;
     max-width: 91%;
 
   }
 }
 
-@media screen and (max-height: 340px) and (orientation:landscape) {
+
+
+@media screen and (max-width: 480px) and (orientation:landscape) {
 
   img.logo{
-    padding: 2% 36% 0;
-    max-width: 80%;
+    padding: 7% 25% 0;
+    width: 100%;
 
   }
 }
-
 
 
 
 @media screen and (max-width: 640px) and (orientation:landscape) {
 
   img.logo{
-    padding: 5% 29% 0;
+    padding: 2% 30% 0;
     width: 100%;
 
   }
 }
+
 
 
 
@@ -782,7 +777,7 @@ img.logo{
 @media screen and (max-height: 250px), and (orientation:landscape)  {
 
   img.logo{
-    padding: 3% 29% 0;
+    padding: 3% 35% 0;
 
   }
 }
